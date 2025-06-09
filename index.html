@@ -17,18 +17,19 @@
 </head>
 <body style="font-family: 'Azeret Mono', monospace;">
 
-    <header class="lg:px-56">
+    <header class="lg:px-56 p-6">
         <!-- Navbar Section  -->
-        <div class="lg:flex justify-between items-center">
+        <div class="flex justify-between items-center">
             <div>
                 <img src="tea-house-resources/images/Tasty_tea.png" alt="">
             </div>
             <!-- Nav items -->
-            <div class="border-2 border-orange-400 rounded-xl p-1 lg:space-x-3">
-                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-500">Home</a>
-                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-500">Service</a>
-                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-500">About Us</a>
-                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-500">Contact Us</a>
+             <a href="#" class="lg:hidden text-2xl hover:text-orange-400"><i class="fa-solid fa-sliders"></i></a>
+            <div class="border-2 border-orange-300 rounded-xl p-1 lg:space-x-3 max-sm:hidden">
+                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-400">Home</a>
+                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-400">Service</a>
+                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-400">About Us</a>
+                <a href="#" class="px-4 py-1 rounded-lg hover:bg-orange-400">Contact Us</a>
             </div>
         </div>
         <!-- Banner content  -->
@@ -43,7 +44,7 @@
             <div class="relative">
                 <img src="tea-house-resources/images/banner.png" alt="">
                 <div>
-                    <div class="flex justify-center shadow-md items-center absolute lg:top-95 lg:right-80 sm:top-80 sm:right-50 rounded-xl px-3 py-6 bg-white">
+                    <div class="flex justify-center shadow-md items-center absolute lg:top-95 lg:right-80 max-sm:top-50 max-sm:right-25  rounded-xl px-3 py-6 bg-white">
                         <div>
                             <i class="fa-solid fa-star text-yellow-400 text-4xl px-3"></i>
                         </div>
@@ -57,7 +58,7 @@
         </div>
     </header>
 
-    <main class="lg:px-56">
+    <main class="lg:px-56 p-6">
         <!-- Feature Products  -->
         <div class="space-y-14">
             <div class="text-center space-y-12">
@@ -88,8 +89,8 @@
             </div>
         </div>
         <!-- Great tea section -->
-        <div class="lg:flex py-32 space-x-5">
-            <div class="grid grid-flow-col grid-rows-3 lg:gap-4 w-1/2">
+        <div class="lg:flex py-32 lg:space-x-5">
+            <div class="grid grid-flow-col grid-rows-3 gap-4 lg:w-1/2">
                 <div class="w-full bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f411] shadow-sm rounded-xl"></div>
                 <div class="w-full bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f411] shadow-sm row-span-2 rounded-xl">
                     <img src="tea-house-resources/images/fresh-1.png" class="px-7 py-14 mx-auto" alt="">
@@ -99,7 +100,7 @@
                 </div>
                 <div class="w-full bg-gradient-to-r from-[#f4f4f4] to-[#f4f4f411] shadow-sm rounded-xl"></div>
             </div>
-            <div class="w-1/2 p-5 space-y-5">
+            <div class="lg:w-1/2 space-y-5">
                 <h1 class="font-bold text-4xl w-3/4">Great Tea, Freshly Presented</h1>
                 <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                 <h4 class="font-bold text-2xl">Unique Taste</h4>
@@ -109,16 +110,16 @@
             </div>
         </div>
         <!-- Clients Review -->
-         <div class="flex justify-between items-center bg-gradient-to-r from-orange-500 to-red-500 p-20">
+         <div class="lg:flex justify-between items-center bg-gradient-to-r from-orange-500 to-red-500 p-6 lg:p-20 space-y-10">
             <!-- text-section  -->
-            <div class="space-y-7 space-x-35">
+            <div class="space-y-7 lg:space-x-35">
                 <h1 class="text-5xl text-white font-bold">Meet Our Super Clients</h1>
                 <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class=" text-orange-500 font-bold text-2xl bg-white px-7 py-4 rounded-lg">Show All</button>
             </div>
             <!-- card section  -->
             <div class="space-y-10 relative">
-                <div class="absolute top-40 -left-30 right-30 z-30">
+                <div class="absolute top-40 lg:-left-30 lg:right-30 z-30">
                     <div class="relative">
                         <div class="bg-white space-y-5 px-10 pt-12 pb-6 rounded-xl">
                             <p class="text-gray-500 w-5/6">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
@@ -154,7 +155,7 @@
                 <h1 class="text-5xl font-bold">News & Events</h1>
                 <p class="text-gray-500 w-5/6 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-            <div class="mt-12 grid grid-cols-3 gap-6">
+            <div class="mt-12 grid lg:grid-cols-3 gap-6">
                 <div class="space-y-3 rounded-xl shadow-lg p-6">
                     <img src="tea-house-resources/images/news-1.png" alt="" class="w-full">
                     <p class="text-gray-500">Feb 05, 2027</p>
@@ -180,11 +181,11 @@
         </div>
     </main>
 
-    <footer class="bg-gradient-to-r from-orange-100 to-red-100 lg:px-56 py-32 text-gray-500">
+    <footer class="bg-gradient-to-r from-orange-100 to-red-100 lg:px-56 py-32 px-5 text-gray-500">
         <div class="flex justify-between">
             <img src="tea-house-resources/images/cup.png" alt="">
-            <div>
-                <span class="text-gray-500 lg:mr-4">Ready to get strated?</span>
+            <div class="flex flex-col lg:flex-row">
+                <span class="text-gray-500 mr-4">Ready to get strated?</span>
                 <button class="px-6 py-4 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg text-white">Get Started</button>
             </div>
         </div>
@@ -210,7 +211,7 @@
             </div>
             <div class="space-y-5">
                 <p class="font-bold text-black w-3/4">Subscribe to our newsletter</p>
-                <div class="flex">
+                <div class="flex justify-between">
                     <input type="text" placeholder="Email address">
                     <i class="fa-solid fa-greater-than text-white bg-gradient-to-r from-orange-500 to-red-500 rounded-full p-3"></i>
                 </div>
